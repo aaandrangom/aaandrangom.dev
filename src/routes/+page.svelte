@@ -3,7 +3,6 @@
   import About from '@/components/about.svelte';
   import Experience from '@/components/experience.svelte';
   import Projects from '@/components/featuredProjects.svelte';
-  import Posts from '@/components/posts.svelte';
 
   interface Props {
     data: any;
@@ -13,10 +12,10 @@
 </script>
 
 <svelte:head>
-  <title>Pablo Hernández - pheralb.dev</title>
-  <meta property="og:title" content="Pablo Hernández" />
-  <meta property="og:description" content="Building amazing things" />
-  <meta name="image" property="og:image" content="https://pheralb.dev/images/readme_img.png" />
+  <title>Anthony Andrango - aaandrangom</title>
+  <meta property="og:title" content="Anthony Andrango" />
+  <meta property="og:description" content="Turning ideas into reality" />
+  <meta name="image" property="og:image" content="https://res.cloudinary.com/dfg9b8dtx/image/upload/v1766774975/portfolio_f4hvn0.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
 </svelte:head>
@@ -25,5 +24,4 @@
   <About />
   <Projects />
   <Experience />
-  <Posts postData={data.posts} />
 </div>

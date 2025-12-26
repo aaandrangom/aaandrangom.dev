@@ -15,6 +15,12 @@ import Turborepo from '@/icons/turborepo.svelte';
 import Shadcnui from '@/icons/shadcnui.svelte';
 import Hono from '@/icons/hono.svelte';
 import Upstash from '@/icons/upstash.svelte';
+import Express from '@/icons/express.svelte';
+import PostgreSQL from '@/icons/postgresql.svelte';
+import Turso from '@/icons/turso.svelte';
+import Go from '@/icons/go.svelte';
+import Sqlite from '@/icons/sqlite.svelte';
+import Wails from '@/icons/wails.svelte';
 
 interface Technologies {
   stack: Stack;
@@ -77,5 +83,29 @@ export const technologies: Technologies[] = [
   {
     stack: 'shadcn/ui',
     icon: Shadcnui
+  },
+  {
+    stack: 'Express',
+    icon: Express
+  },
+  {
+    stack: 'PostgreSQL',
+    icon: PostgreSQL
+  },
+  {
+    stack: 'Turso',
+    icon: Turso
+  },
+  {
+    stack: 'GO',
+    icon: Go
+  },
+  {
+    stack: 'SQLite',
+    icon: Sqlite
+  },
+  {
+    stack: 'Wails',
+    icon: Wails
   }
 ];

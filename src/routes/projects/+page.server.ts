@@ -11,7 +11,7 @@ interface iGithubResultAPI {
 }
 
 export const load: PageServerLoad = async ({ fetch }) => {
-  const githubUrl = 'https://api.github.com/users/pheralb/repos?type=owner&sort=updated&per_page=15';
+  const githubUrl = 'https://api.github.com/users/aaandrangom/repos?type=owner&sort=updated&per_page=15';
 
   const res = await fetch(githubUrl);
   const data = await res.json();

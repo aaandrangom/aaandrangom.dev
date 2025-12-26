@@ -12,7 +12,13 @@ export type Stack =
   | 'Astro'
   | 'Trpc'
   | 'Prisma'
-  | 'shadcn/ui';
+  | 'shadcn/ui'
+  | 'Express'
+  | 'PostgreSQL'
+  | 'Turso'
+  | 'GO'
+  | 'SQLite'
+  | 'Wails';
 
 export interface iProjects {
   title: string;

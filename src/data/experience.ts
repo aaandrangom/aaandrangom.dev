@@ -4,11 +4,13 @@ export const experienceData: iExperience[] = [
   {
     role: 'Software Developer',
     aboutRole:
-      'Development solutions for public administration using advanced technologies. In my role, I have improved development agility by implementing modern techniques, creating Typescript libraries for sharing utilities across projects, writing documentation and upgrading outdated projects to new technologies.',
-    company: 'ATM Grupo Maggioli',
-    companyUrl: 'https://www.atm-maggioli.es/',
-    startDate: '2022',
-    endDate: 'Present',
+      `Engineered the end-to-end solution for the "Urban Fauna" module, spanning from PostgreSQL database design to UI implementation. 
+      The system digitized animal tracking and adoptions, streamlining municipal workflows through a modern, intuitive, 
+      and efficient user experience.`,
+    company: 'GAD Municipal de San Miguel de Ibarra',
+    companyUrl: 'https://www.ibarra.gob.ec/site/',
+    startDate: 'March 2024',
+    endDate: 'June 2024',
     latest: true
   }
 ];

@@ -3,31 +3,25 @@
 
   import Github from '@/icons/github.svelte';
   import Linkedin from '@/icons/linkedin.svelte';
-  import X from '@/icons/x.svelte';
-  import Bluesky from '@/icons/bluesky.svelte';
+  import Download from '@/icons/download.svelte';
   import ModdeToggle from './modde-toggle.svelte';
 
   const SocialLinks = [
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/pheralb',
+      url: 'https://www.linkedin.com/in/aaandrangom',
       icon: Linkedin
     },
     {
-      name: 'Bluesky',
-      url: 'https://bsky.app/profile/pheralb.dev',
-      icon: Bluesky,
-      iconSize: 22
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/pheralb_',
-      icon: X
-    },
-    {
       name: 'GitHub',
-      url: 'https://github.com/pheralb',
+      url: 'https://github.com/aaandrangom',
       icon: Github
+    },
+    {
+      name: 'Download Resume',
+      url: '/Anthony_Andrangom_Resume.pdf',
+      icon: Download,
+      iconSize: 22
     }
   ];
 </script>
@@ -39,7 +33,16 @@
     href="/"
     class="text-md flex items-center space-x-2 font-medium tracking-tight opacity-80 transition-opacity duration-150 hover:opacity-100"
   >
-    <span>pheralb.dev</span>
+    <img
+      src="/images/logo-dark.png"
+      alt="aaandrangom"
+      class="hidden h-10 origin-left scale-y-[4] scale-x-[8] -ml-8 dark:block"
+    />
+    <img
+      src="/images/logo-ligth.png"
+      alt="aaandrangom"
+      class="block h-10 origin-left scale-y-[4] scale-x-[8] -ml-8 dark:hidden"
+    />
   </a>
   <div class="flex items-center space-x-1">
     {#each SocialLinks as { name, url, icon, iconSize }, i}

@@ -9,9 +9,9 @@
     )}
   >
     <p class="leading-loose">
-      {`I'm`} <span class="font-bold tracking-tight">Pablo</span>, a fullstack web developer from
-      Canary Islands with +3 years of experience. I'm passionate about databases, UI/UX design, and
-      building open-source software.
+      {`I’m`} <span class="font-bold tracking-tight">Anthony</span>, a software developer focused on building complete 
+      and functional web applications. I’m passionate about designing solid architectures, optimizing performance, 
+      and creating intuitive interfaces that solve real-world problems.
     </p>
   </article>
 </section>

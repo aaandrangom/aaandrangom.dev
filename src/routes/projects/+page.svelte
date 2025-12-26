@@ -3,7 +3,7 @@
   import type { PageData } from './$types';
 
   import Input from '@/ui/input/input.svelte';
-  import { ArrowRight, ArrowUpRight, GitForkIcon, SearchIcon, StarIcon } from 'lucide-svelte';
+  import { ArrowUpRight, GitForkIcon, SearchIcon, StarIcon } from 'lucide-svelte';
   import { routeAnimation } from '@/ui/shared';
 
   interface Props {
@@ -27,13 +27,13 @@
 </script>
 
 <svelte:head>
-  <title>Projects - Pablo Hernández</title>
-  <meta property="og:title" content="Pablo Hernández" />
-  <meta property="og:description" content="Building amazing things" />
+  <title>Projects - Anthony Andrango</title>
+  <meta property="og:title" content="Anthony Andrango" />
+  <meta property="og:description" content="Turning ideas into reality" />
   <meta
     name="image"
     property="og:image"
-    content="https://pheralb.dev/images/readme_img.png"
+    content="https://res.cloudinary.com/dfg9b8dtx/image/upload/v1766774975/portfolio_f4hvn0.png"
   />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -66,7 +66,7 @@
       </p>
     </div>
     <a
-      href="https://github.com/pheralb?tab=repositories"
+      href="https://github.com/aaandrangom?tab=repositories"
       class="group flex items-center space-x-1"
       target="_blank"
       rel="noopener noreferrer"
