@@ -1,11 +1,9 @@
 <script>
   import { buttonVariants } from '@/ui/button';
-
   import Github from '@/icons/github.svelte';
   import Linkedin from '@/icons/linkedin.svelte';
   import Download from '@/icons/download.svelte';
   import ModdeToggle from './modde-toggle.svelte';
-
   const SocialLinks = [
     {
       name: 'LinkedIn',
@@ -25,7 +23,6 @@
     }
   ];
 </script>
-
 <nav
   class="container sticky top-0 z-50 mb-1 flex w-full max-w-4xl items-center justify-between bg-neutral-100/80 py-4 backdrop-blur-md dark:bg-neutral-900/80"
 >
@@ -33,16 +30,18 @@
     href="/"
     class="text-md flex items-center space-x-2 font-medium tracking-tight opacity-80 transition-opacity duration-150 hover:opacity-100"
   >
-    <img
-      src="/images/logo-dark.png"
-      alt="aaandrangom"
-      class="hidden h-10 origin-left scale-y-[4] scale-x-[8] -ml-8 dark:block"
-    />
-    <img
-      src="/images/logo-ligth.png"
-      alt="aaandrangom"
-      class="block h-10 origin-left scale-y-[4] scale-x-[8] -ml-8 dark:hidden"
-    />
+    <div class="relative -ml-12 h-10 w-20">
+      <img
+        src="/images/logo-dark.png"
+        alt="aaandrangom"
+        class="absolute left-0 top-1/2 hidden h-10 -translate-y-1/2 origin-left scale-x-[5] scale-y-[3.5] dark:block"
+      />
+      <img
+        src="/images/logo-light.png"
+        alt="aaandrangom"
+        class="absolute left-0 top-1/2 block h-10 -translate-y-1/2 origin-left scale-x-[5] scale-y-[3.5] dark:hidden"
+      />
+    </div>
   </a>
   <div class="flex items-center space-x-1">
     {#each SocialLinks as { name, url, icon, iconSize }, i}
