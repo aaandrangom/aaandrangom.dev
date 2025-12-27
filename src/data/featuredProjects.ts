@@ -22,7 +22,7 @@ export const featuredProjects: iProjects[] = [
     title: 'SIGDECE',
     description: '✍️ Manages DECE student records and counseling data.',
     tags: ['SQLite', 'GO', 'Wails', 'React', 'Tailwind CSS'],
-    githubUrl: 'https://github.com/aaandrangom/sigdece',
+    githubUrl: 'https://github.com/aaandrangom/dece-student-management',
     icon: 'https://res.cloudinary.com/dfg9b8dtx/image/upload/v1766767777/sigdece-logo_hkeqho.png'
   },
 ];
